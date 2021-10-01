@@ -21,10 +21,10 @@ Example:
 ...
 """
 e=2
-print(f"{e}" , end = ' ')
+print(f"{e}")
 num=True
 while num:
     e=e+2
-    print(f"{e}" , end = ' ')
+    print(f"{e}")
     if e==20:
         num=False
