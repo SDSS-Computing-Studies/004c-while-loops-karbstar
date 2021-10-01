@@ -13,17 +13,21 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
-
+k=0
 x=1
 y=1
 e= x + y
+print(f"{x} {y}" , end = ' ') 
 y= e 
 d= e
-print(f"{x}{y}" , end = ' ') 
+print(f"{y}" , end = ' ')
 num=True
 while num:
     e= x + y
     y = e
     x = d 
     d = e
-    print(f"{x}{y}" , end = ' ')
+    print(f"{y}" , end = ' ')
+    k= k+1
+    if k==9:
+        num=False

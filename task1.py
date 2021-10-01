@@ -20,3 +20,11 @@ Example:
 10
 ...
 """
+e=2
+print(f"{e}" , end = ' ')
+num=True
+while num:
+    e=e+2
+    print(f"{e}" , end = ' ')
+    if e==20:
+        num=False
